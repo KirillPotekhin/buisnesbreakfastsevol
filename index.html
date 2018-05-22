@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.6/jquery.fullpage.css" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.2.0/css/swiper.min.css">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="font-awesome/css/font-awesome.css" rel="stylesheet">
+    <title>Бизнес завтрак</title>
+</head>
+<body class="init">
+<header class="header">
+    <div class="container container-header">
+        <img class="logo" src="img/logo.png" alt="Точка росы" width="130" height="51">
+        <div class="button-wrapper">
+            <button class="button-wrapper__item button-wrapper__item--button-three btn btn-lg btn-outline-dark" id="moveTo-three" type="button">
+                Третий
+            </button>
+            <button class="button-wrapper__item register btn btn-lg btn-outline-dark" id="moveTo" type="button">
+                Регистрация
+            </button>
+        </div>
+    </div>
+</header>
+<div id="fullpage">    
+    <div class="section hide section--transition">
+        <div class="container">
+            <div class="screen-second">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <p>что делать, чтобы</p>
+                        <div class="answer">
+                            <img class="answer-img" src="img/answer-img1.png">
+                            <p>маркетинг работал</p>
+                        </div>
+                        <p>,а не сосал бюджет?</p>
+                    </div>
+                    <div class="col-lg-4">
+                        <p>KPI В МАРКЕТИНГЕ:<br> БИЗНЕСУ, МАРКЕТОЛОГУ,<br> АГЕНСТВУ.</p>
+                        <div class="answer">
+                            <img class="answer-img" src="img/answer-img2.png">
+                            <p>КАК СТАВИТЬ ЗАДАЧИ</p>
+                        </div>
+                        <p>И ВСЁ ЭТО КОНТРОЛИРОВАТЬ?</p>
+                    </div>
+                    <div class="col-lg-4">
+                        <p>ЧТО ТАКОЕ</p>
+                        <div class="answer">
+                            <img class="answer-img" src="img/answer-img1.png">
+                            <p>PERFORMANCE- МАРКЕТИНГ</p>
+                        </div>
+                        <p>И ЗАЧЕМ ОН НУЖЕН</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-7 screen-second--animation-top">
+                        <p>Все это вы узнаете на бесплатном бизнес-завтраке</p>
+                        <p class="losung"><span>"Маркетинг как канал продаж<br> или заставьте маркетолога зарабатывать."</span></p>
+                        <p>15 марта с 10 до 12.00 по адресу Вокзальная магистраль, 15, аудитория 707</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section hide">
+        <div class="container"><div class="screen-third">
+            <div class="row">
+                <div class="col-md-6 col-xl-4">
+                    <p class="screen-third-head">Завтрак проводит</p>
+                    <h2 class="screen-third-author"><span>Денис Шенин</span></h2>
+                    <p class="screen-third-position font-italic">Креативный дирекор<br> рекламной студии Точка Росы</p>
+                    <ul>
+                        <li>Запустил более 500 рекамных кампаний;</li>
+                        <li>Работал с такими брендами как 2ГИС,
+                            Макдоналдс и Мегафон;</li>
+                        <li>В программе много практических примеров.</li>
+                    </ul>
+                </div>
+                <div class="col-sm-5">
+                    <img src="img/screen-third.png">
+                </div>
+            </div>
+        </div></div>
+    </div>
+    <div class="section hide hide-header">
+        <div class="container">
+            <div class="screen-four">
+                <div class="row">
+                    <div class="col-md-5">
+                        <p class="screen-four-head">Регистрируйтесь, это бесплатно!<br>
+                            А мы обязательно вам напомним :)</p>
+                        <form id="contactForm">
+                            <fieldset>
+                                <div class="group">
+                                    <input type='text' name='name' placeholder='ФИО' required>
+                                    <span>
+                                        <!--<i class="fas fa-check"></i>-->
+                                        <!--<i class="fas fa-times"></i>-->
+                                        <i class="fa fa-check" aria-hidden="true"></i>
+                                        <i class="fa fa-times" aria-hidden="true"></i>
+                                    </span>
+                                </div>
+                                <div class="group">
+                                    <input type='email' name='email' placeholder='E-mail' required>
+                                    <span>
+                                        <!--<i class="fas fa-check"></i>-->
+                                            <!--<i class="fas fa-times"></i>-->
+                                        <i class="fa fa-check" aria-hidden="true"></i>
+                                        <i class="fa fa-times" aria-hidden="true"></i>
+                                    </span>
+                                </div>
+                                <div class="group">
+                                    <input type='text' name='phone' placeholder='Телефон' required>
+                                    <span>
+                                        <!--<i class="fas fa-check"></i>-->
+                                        <!--<i class="fas fa-times"></i>-->
+                                        <i class="fa fa-check" aria-hidden="true"></i>
+                                        <i class="fa fa-times" aria-hidden="true"></i>
+                                    </span>
+                                </div>
+                            </fieldset>
+                            <!--<button type="submit">Send email</button>-->
+                            <button type="submit" class="btn send">
+                                Отправить
+                            </button>
+                        </form>
+                        <p class="screen-four-remark">*Все поля обязательны</p>
+                    </div>
+                    <div class="col-md-7">
+                        <div class="map-block" id="map"></div>
+                        <p class="map-information">15 марта с 10 до 12.00 по адресу<br>
+                            Вокзальная магистраль, 15, аудитория 707</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div class="container">
+                <div class="social">
+                    <a class="social-btn social-btn-instagram" href="#">
+                        <i class="fa fa-instagram" aria-hidden="true"></i>
+                        <!--<i class="fab fa-instagram"></i>-->
+                    </a>
+                    <a class="social-btn social-btn-twitter" href="#">
+                        <i class="fa fa-twitter" aria-hidden="true"></i>
+                        <!--<i class="fab fa-twitter 3x"></i>-->
+                    </a>
+                    <a class="social-btn social-btn-facebook" href="#">
+                        <i class="fa fa-facebook" aria-hidden="true"></i>
+                        <!--<i class="fab fa-facebook-f 2x"></i>-->
+                    </a>
+                    <a class="social-btn social-btn-web" href="#">
+                        <i class="fa fa-globe" aria-hidden="true"></i>
+                        <!--<i class="fab fa-globe"></i>-->
+                    </a>
+                </div>
+            </div>
+        </footer>
+    </div>
+</div>
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <h5 class="modal-title" id="exampleModalLabel">Спасибо за регистрацию!</h5>
+                <p>Ждём вас по адресу<br>
+                    Вокзальная магистраль, 15, аудитория 707
+                </p>
+                <p class="font-weight-bold">15 марта с 10 до 12.00</p>
+                <img src="img/modal.png">
+            </div>
+        </div>
+    </div>
+</div>
+<script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.6/vendors/scrolloverflow.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.6/jquery.fullpage.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.2.0/js/swiper.min.js"></script>
+<script src="https://maps.api.2gis.ru/2.0/loader.js?pkg=full"></script>
+<script type="text/javascript" src="js/script.js"></script>
+
+</body>
+</html>
